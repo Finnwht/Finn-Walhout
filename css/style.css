@@ -1,9 +1,11 @@
 body {
-  background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+  background-color: 	#2E8B57;
+
+  /* background: linear-gradient(135deg, #a8e6cf, #dcedc1); */
 }
 
   h1{
-    color: #black;
+    color: black;
   }
 
   h3{
