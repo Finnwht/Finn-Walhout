@@ -19,3 +19,12 @@ hr{background-color:none;
   border-width: 5px;
   width: 20%;
 }
+
+img {
+  width: 100%; 
+  height: auto;
+}
+
+.avatar {
+  width: 200px;
+}
