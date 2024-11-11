@@ -1,7 +1,11 @@
 body {
   background-color: #2F4F4F;
+  font-family: "Open Sans", sans-serif;
+}
 
-  /* background: linear-gradient(135deg, #a8e6cf, #dcedc1); */
+a{
+  color: #FF7518;
+  font-size: 14px;
 }
 
   h1{
@@ -27,4 +31,28 @@ img {
 
 .avatar {
   width: 200px;
+}
+
+.hobbies {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 12px 24px; 
+  border: none; 
+  border-radius: 8px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.hobbies:hover {
+  background-color: #45a049; 
+  transform: scale(1.05); 
+}
+
+.hobbies:active {
+  background-color: #3e8e41; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  transform: scale(0.98); 
 }
