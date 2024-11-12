@@ -34,9 +34,9 @@ img {
   width: 200px;
 }
 
-.hobbies {
-  background-color: #4CAF50; 
-  color: white; 
+.button {
+  background-color: #ffffcc; 
+  color: black; 
   padding: 12px 24px; 
   border: none; 
   border-radius: 8px; 
@@ -47,13 +47,13 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.hobbies:hover {
-  background-color: #45a049; 
+.button:hover {
+  background-color: #F5F5DC; 
   transform: scale(1.05); 
 }
 
-.hobbies:active {
-  background-color: #3e8e41; 
+.button:active {
+  background-color: #D9C4A1; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   transform: scale(0.98); 
 }
